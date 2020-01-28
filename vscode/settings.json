@@ -1,0 +1,69 @@
+{
+    "editor.minimap.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+    "breadcrumbs.enabled": true, 
+    "files.autoSave": "onFocusChange",
+
+    "vim.statusBarColorControl": true,
+    "workbench.statusBar.visible": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+
+    "go.addTags": {
+        "tags": "json",
+        "options": "",
+        "promptForTags": false,
+        "transform": "snakecase"
+    },
+
+    "vim.useSystemClipboard": true,
+    
+    "liveshare.connectionMode": "auto",
+    "window.zoomLevel": 0,
+    "markdown.preview.lineHeight": 1.4,
+    "cSpell.language": "en-GB",
+    "go.testTimeout": "7m",
+    "go.coverOnSingleTest": true,
+    "go.lintTool": "gometalinter",
+    "go.lintFlags": [
+        "--config=/home/manoranjith/go/src/gitlab.com/boschresearch/perun/go-perun/build/linterConfig.json"
+    ],
+    "go.lintOnSave": "off",
+    "workbench.settings.openDefaultKeybindings": true,
+    "window.openFilesInNewWindow": "on",
+    "workbench.statusBar.feedback.visible": false,
+    "vim.ignorecase": false,
+    "vim.smartcase": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.alignment": "left",
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "gnome-terminal",
+    "http.proxySupport": "on",
+    "http.proxy": "http://localhost:3128/",
+    "gitlens.views.repositories.files.layout": "tree",
+    "workbench.colorTheme": "Gotham",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideStatusBar": false,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "cSpell.userWords": [
+        "connecton",
+        "ethereum",
+        "mscontract",
+        "perun"
+    ],
+    "explorer.confirmDelete": false
+}

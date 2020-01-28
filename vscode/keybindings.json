@@ -1,0 +1,52 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+     "key" : "ctrl+`",
+     "command":"workbench.action.terminal.focus",
+     "when":"!terminalFocus"
+    },
+    {
+     "key" : "ctrl+`",
+     "command":"workbench.action.focusActiveEditorGroup",
+     "when":"terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.view.extension.go-outliner"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "Ctrl+up",
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "Ctrl+down",
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "Ctrl+\\",
+        "command": "workbench.action.terminal.splitInActiveWorkspace",
+        "when": "terminalFocus",
+    },
+    {
+        "key": "Ctrl+PageUp",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus",
+    },
+    {
+        "key": "Ctrl+PageDown",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus",
+    }
+]
